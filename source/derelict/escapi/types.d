@@ -28,9 +28,8 @@ DEALINGS IN THE SOFTWARE.
 module derelict.escapi.types;
 
 
-struct ESCAPISimpleCapParams
-{
-	int * mTargetBuf;
+struct ESCAPISimpleCapParams {
+	int* mTargetBuf;
 	int mWidth;
 	int mHeight;
 };
